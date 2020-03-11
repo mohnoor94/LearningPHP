@@ -1,5 +1,5 @@
 <?php
-include "helpers.php";
+include "../utils/helpers.php";
 newSection('Control Structures', true);
 
 newSection("if");

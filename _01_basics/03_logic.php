@@ -1,5 +1,5 @@
 <?php
-include "helpers.php";
+include "../utils/helpers.php";
 
 newSection("Logic", true);
 // Or... the stupid logic :3
