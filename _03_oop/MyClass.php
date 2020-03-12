@@ -1,6 +1,6 @@
 <?php
 
-
+// Class name is case insensitive!
 class MyClass
 {
     const MY_CONST = 'value'; // A constant

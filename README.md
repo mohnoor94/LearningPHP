@@ -6,3 +6,4 @@
 ## My Main Resources to Learn
 
 * [Learn X in Y minutes, Where X=PHP](https://learnxinyminutes.com/docs/php/).
+* [PHP Fundamentals](https://app.pluralsight.com/library/courses/php-fundamentals/table-of-contents) by Jill Gundersen.
