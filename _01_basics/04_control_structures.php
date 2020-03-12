@@ -12,6 +12,31 @@ if (true) {
 }
 
 // =====================================================================================================================
+newSection('Ternary Operator');
+
+$count = 5;
+$zero = 0;
+
+
+echo $count ? "We have five" : "5 Nah!", "\n";
+echo $zero ? "We have zero" : "0 Nah!", "\n";
+
+// =====================================================================================================================
+newSection('Null Coalesce');
+
+// returns value if defined or else the default value
+
+$count = 5;
+$zero = 0;
+
+echo $count ?? "5 Nah!", "\n";
+echo $zero ?? "0 Nah!", "\n";
+echo $someUndefinedVar ?? "## Nah!", "\n";
+
+echo $someUndefinedVar ?? $count ?? 10, "\n";
+echo $someUndefinedVar ?? $anotherUndefinedVar ?? 10, "\n";
+
+// =====================================================================================================================
 newSection('switch');
 
 $x = 0;
