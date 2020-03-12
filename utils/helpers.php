@@ -6,3 +6,8 @@ function newSection($title, $isStart = false)
     if (!$isStart) echo str_repeat("=", 100);
     echo "\n$title:\n\n";
 }
+
+function lines($repetitions = 1)
+{
+    echo str_repeat("\n", $repetitions);
+}
